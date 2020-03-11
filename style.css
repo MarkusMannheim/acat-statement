@@ -1,0 +1,33 @@
+/* ABC fonts */
+@font-face {
+  font-family: "ABCSans Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("ABCSans Regular"), url("./abcsans-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "ABCSans Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("ABCSans Black"), url("./abcsans-black.woff") format("woff");
+}
+:root {
+  font-size: 1em;
+  font-family: "ABCSans Regular", "Arial Regular", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0;
+}
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "ABCSans Black", "Arial Black", sans-serif;
+  font-size: 1rem;
+}
+p {
+  font-size: .8rem;
+  padding-top: .5rem;
+}
