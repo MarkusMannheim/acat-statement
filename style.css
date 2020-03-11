@@ -16,8 +16,14 @@
   font-family: "ABCSans Regular", "Arial Regular", sans-serif;
 }
 body {
-  margin: 0px;
-  padding: 0;
+  background-color: rgb(238, 238, 238);
+}
+#container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  vertical-align: middle;
 }
 h1, p {
   margin: 0;
